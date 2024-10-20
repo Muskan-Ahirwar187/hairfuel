@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #f4f4f4;
+    background-color: antiquewhite;
+}
+
+/* Header styling */
+.header {
+    background-color: coral;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.shampoo{
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(111, 124, 137);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+    
+/* Product container styling */
+#product-container {
+    display: flex;
+    justify-content:flex-start;
+    gap: 70px;
+    padding-left: 50px;
+    padding-top: 30px;
+    align-items: center;
+    width: 100%;
+    white-space:nowra;
+    /* background-color: brown; */
+    min-height: 400px;
+}
+
+/* Product card styling */
+.product-card {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 430px;
+}
+
+/* Product image styling */
+.product-card img {
+    width: 100%; 
+     height: 250px; 
+    border-radius: 10px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+/* Product description */
+.product-card p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Rating button styling */
+.rating-button {
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.rating-button:hover {
+    background-color: darkorange;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .header {
+        font-size: 1.5rem;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+
+    .product-card img {
+        width: 100%;
+    }
+}
